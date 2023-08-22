@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="signup.js"></script>
+
+  <title>Yaso Home Page</title>
+  <link rel="stylesheet" type="text/css" href="home.css" />
+  <script src="/routing.js"></script>
+</head>
+<body style="background-color: rgb(255, 201, 201);">
+  <header>
+    <img class="logo" src="images/yaso logo/Yaso logo.png" alt="" height="350px" width="350px">
+    <button onclick="goToHome()">HOME</button>
+    <button onclick="goToMensPage()">Go to Mens Page</button>
+    <button onclick="goToWomensPage()">Go to Womens Page</button>
+    <button onclick="goToKidsPage()">Go to Kids Page</button>
+    <button onclick="goToAboutUs()">Go to About Us Page</button>
+    <button onclick="goToLogin()">Go to Login Page</button>
+    <button onclick="goToSignup()">Go to Signup Page</button>
+    
+    
+    <input type="text" placeholder="Search...">
+    <img class="headericons" src="images/icons/user-solid (1).svg">
+    <img class="headericons" src="./images/">
+  </header>
+  
+  <!-- Registration Form -->
+  <div class="registration-form">
+    <h2>Registration</h2>
+    <form id="registration-form">
+      <input type="text" id="firstname" placeholder="First Name" required>
+      <input type="text" id="lastname" placeholder="Last Name" required>
+      <input type="email" id="email" placeholder="Email" required>
+      <input type="tel" id="phonenumber" placeholder="Phone Number" required>
+      <input type="text" id="referralcode" placeholder="Referral Code" required>
+      
+      <label for="agree-terms">I agree to the terms and conditions</label>
+      <input type="checkbox" id="agree-terms" required>
+      
+      <button type="submit">Sign Up</button>
+      <button type="button" id="cancel-registration">Cancel</button>
+      <p>Already have an account? <a href="/login.html">Login here</a></p>
+    </form>
+  </div>
+  
+  
+  
+    </form>
+  </div>
+
+  
+  <div class="products">
+   
+  </div>
+</body>
+</html>

@@ -1,0 +1,85 @@
+.button{
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+ 
+  transition: border-radius 0.3s;
+}
+.header {
+    display: flex;
+    justify-content: space-between; /* Distribute items evenly along the available space */
+    align-items: center; /* Center items vertically */
+    padding: 10px 20px; /* Add padding for spacing */
+    background-color: #333;
+    color: white;
+}
+.home_header{
+  display:inline;
+  padding:10px 20px;
+  cursor: pointer;
+  border: 10px;
+  margin:10px;
+  
+ 
+
+}
+
+.logo {
+    max-height: 100px; /* Adjust the height as needed */
+}
+
+.header-navigation {
+    display: flex;
+    gap: 20px; 
+}
+
+.header-icons {
+    display: flex;
+    gap: 10px; /* Add a smaller gap between icons */
+    cursor:pointer;
+
+}
+.logo{
+  display: inline-block;
+  border-radius: 100px;
+  width:40px;
+  height: 40px;
+}
+.headericons{
+  display:inline-block;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  height: 40px;
+  transition: background-color 0.3s, transform 0.3s;
+  color:yellow;
+  text-align:center;
+  padding: 10px;
+  cursor: pointer;
+
+
+
+}
+.products{
+  display:inline-block;
+  border:1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  width: 250px;
+
+}
+.productdescription{
+  display: inline-block;
+  cursor:pointer;
+}
+.body{
+  font-family:arial,sans-serif;
+  margin: 0;
+  padding: 0;
+}
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.1);}
+ 

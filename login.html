@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Yaso Home Page</title>
+  <link rel="stylesheet" type="text/css" href="home.css" />
+  <script src="/routing.js"></script>
+  <script src="/login.js"></script>
+</head>
+<body style="background-color: rgb(255, 201, 201);">
+  <header>
+    <img class="logo" src="images/yaso logo/Yaso logo.png" alt="" height="350px" width="350px">
+    <button onclick="goToHome()">HOME</button>
+    <button onclick="goToMensPage()">Go to Mens Page</button>
+<button onclick="goToWomensPage()">Go to Womens Page</button>
+<button onclick="goToKidsPage()">Go to Kids Page</button>
+<button onclick="goToAboutUs()">Go to About Us Page</button>
+<button onclick="goToLogin()">Go to Login Page</button>
+<button onclick="goToSignup()">Go to Signup Page</button>
+    
+    <input type="text" placeholder="Search...">
+    <img class="headericons" src="images/icons/user-solid (1).svg">
+    <img class="headericons" src="./images/">
+    <script src="login.js"></script>
+
+  </header>
+  
+  
+  
+  
+  <div class="login-form">
+    <h2>Login</h2>
+    <form id="login-form">
+      <input type="text" id="login-username" placeholder="Username" required>
+      <input type="password" id="login-password" placeholder="Password" required>
+      
+      <label for="remember-me">Remember Me</label>
+      <input type="checkbox" id="remember-me">
+      
+      <button type="submit">Login</button>
+      <button type="button" id="cancel-login">Cancel</button>
+      <p>Don't have an account? <a href="/signup.html">Sign up here</a></p>
+    </form>
+  </div>
+
+  <!-- Product Display Section -->
+  <div class="products">
+    <!-- Product items go here -->
+  </div>
+</body>
+</html>
